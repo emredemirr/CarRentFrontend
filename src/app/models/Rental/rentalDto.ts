@@ -1,0 +1,19 @@
+export interface RentalDto{  
+    id:number;
+    carId:number;
+    modelYear:number;
+    brandName:string;
+    description:string;
+    dailyPrice:number;
+    firstName:string;
+    lastName:string;
+    companyName:string;
+    rentDate:Date;
+    estReturnDate?:Date;
+    returnDate?:Date;
+    totalPaye:number;
+    cardNameSurname:string;
+    cardNumber:string;
+    cardExpiryDate:string;
+    cardCvv:string;
+}
